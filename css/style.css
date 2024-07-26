@@ -53,6 +53,12 @@ td {
   width: 50%;
 }
 
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 #image-section {
   padding: 0;
 }
@@ -61,4 +67,18 @@ td {
   background-color: var(--color-rose-white);
   padding: 1rem;
   border-radius: 1rem;
+}
+
+/* Tablet and Desktop screens */
+@media screen and (min-width: 600px) {
+  body {
+    padding: 5rem 0;
+    background-color: var(--color-rose-white);
+  }
+
+  main {
+    background-color: var(--color-white);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
 }
